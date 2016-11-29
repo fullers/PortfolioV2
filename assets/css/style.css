@@ -1,0 +1,182 @@
+body {
+	background-image: url("../images/ZenBG.png");
+	background-size: cover;
+}
+.navbar {
+	background-image: transparent !important;
+	background-color: #FAFAF4 !important;
+	font-weight: bold;
+	color: #398FBA;
+	opacity: .8;
+}
+
+.navbar-default .navbar-brand {
+	color: #398FBA;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #398FBA;
+}
+
+/*#backgrndwell .well {
+	background-image: transparent !important;
+	background-color: #ffffff !important;
+	color: #ffffff;
+	opacity: .9;
+    float: bottom;
+}*/
+
+.well {
+	background-image: transparent !important;
+	background-color: #398FBA !important;
+	color: #ffffff;
+	opacity: .8;
+}
+
+#img-profile {
+	float: left;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#mc-text {
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.img-size {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+}
+#img-stackoverflow {
+
+	width: 75px;
+	height: 72px;
+	margin-top: 22px;
+}
+
+#copyright {
+	color: #398FBA;
+}
+
+
+/* Begin CSS for Portfolio 
+   Creating the figures for main content (Hangman, RPG Game, Triva Game, Widget, and RPS*/
+
+.img-hangman {
+	background-image: url("../images/technics-q-c-210-204-1.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#fig-hangman {
+	/*background: #1995dc;*/
+	text-align: center;
+	/*color: #ffffff;*/
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	top: 140px;
+}
+
+.img-rpggame {
+	background-image: url("../images/clearcrystal.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    position: relative;
+    top: -204px;
+    right: -250px;
+}
+
+#fig-rpggame {
+	/*background: #1995dc;*/
+	text-align: center;
+	/*color: #ffffff;*/
+	font-size: 20px;
+	padding: 20px;
+	position: relative;
+	top: 140px;
+}
+
+.img-triviagame {
+	background-image: url("../images/technics-q-c-210-204-6.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    position: relative;
+    top: -160px;
+}
+
+#fig-triviagame {
+	/*background: #1995dc;*/
+	text-align: center;
+	/*color: #ffffff;*/
+	font-size: 20px;
+	padding: 20px;
+	position: relative;
+	top: 140px;
+}
+
+.img-widget {
+	background-image: url("../images/technics-q-c-210-204-7.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    position: relative;
+    top: -364px;
+    right: -250px;
+}
+
+#fig-widget {
+	/*background: #1995dc;*/
+	text-align: center;
+	/*color: #ffffff;*/
+	font-size: 18px;
+	padding: 20px;
+	position: relative;
+	top: 144px;
+}
+
+.img-rps {
+	background-image: url("../images/technics-q-c-210-204-9.jpg");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    position: relative;
+    top: -320px;
+}
+
+#fig-rps {
+	/*background: #1995dc;*/
+	text-align: center;
+	/*color: #ffffff;*/
+	font-size: 18px;
+	padding: 20px;
+	position: relative;
+	top: 140px;
+}
+
+/* End of CSS for Portfolio*/
+
+/* The animation code */
+@keyframes example {
+    from {
+    	background: #398FBA;
+		color: #ffffff;
+    }
+    to {background: grey;}
+}
+
+/* The element to apply the animation to */
+figure {
+	background: #FAFAF4;
+	color: #398FBA;
+	opacity: 0.7;
+    animation-name: example;
+    animation-duration: 5s;
+}
