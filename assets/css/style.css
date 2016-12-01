@@ -12,18 +12,11 @@ body {
 
 .navbar-default .navbar-brand {
 	color: #398FBA;
+	font-size: 30px;
 }
 .navbar-default .navbar-nav>li>a {
 	color: #398FBA;
 }
-
-/*#backgrndwell .well {
-	background-image: transparent !important;
-	background-color: #ffffff !important;
-	color: #ffffff;
-	opacity: .9;
-    float: bottom;
-}*/
 
 .well {
 	background-image: transparent !important;
@@ -45,12 +38,22 @@ body {
 
 .img-size {
 	display: inline-block;
+}
+
+#img-github {
 	width: 80px;
 	height: 80px;
 	margin-top: 20px;
 }
-#img-stackoverflow {
 
+#img-linkedin {
+	width: 75px;
+	height: 73px;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+#img-stackoverflow {
 	width: 75px;
 	height: 72px;
 	margin-top: 22px;
@@ -104,7 +107,7 @@ body {
 }
 
 .img-triviagame {
-	background-image: url("../images/technics-q-c-210-204-6.jpg");
+	background-image: url("../images/cbcity.jpg");
     width: 210px;
     height: 204px;
     margin-left: 20px;
@@ -122,8 +125,8 @@ body {
 	top: 140px;
 }
 
-.img-widget {
-	background-image: url("../images/technics-q-c-210-204-7.jpg");
+.img-ffind {
+	background-image: url("../images/friends.jpg");
     width: 210px;
     height: 204px;
     margin-left: 20px;
@@ -132,7 +135,7 @@ body {
     right: -250px;
 }
 
-#fig-widget {
+#fig-ffind {
 	/*background: #1995dc;*/
 	text-align: center;
 	/*color: #ffffff;*/
@@ -142,8 +145,8 @@ body {
 	top: 144px;
 }
 
-.img-rps {
-	background-image: url("../images/technics-q-c-210-204-9.jpg");
+.img-eat {
+	background-image: url("../images/burger.png");
     width: 210px;
     height: 204px;
     margin-left: 20px;
@@ -151,7 +154,7 @@ body {
     top: -320px;
 }
 
-#fig-rps {
+#fig-eat {
 	/*background: #1995dc;*/
 	text-align: center;
 	/*color: #ffffff;*/
@@ -159,6 +162,26 @@ body {
 	padding: 20px;
 	position: relative;
 	top: 140px;
+}
+
+.img-gift {
+	background-image: url("../images/200.gif");
+    width: 210px;
+    height: 204px;
+    margin-left: 20px;
+    position: relative;
+    top: -506px;
+    right: -250px;
+}
+
+#fig-gift {
+	/*background: #1995dc;*/
+	text-align: center;
+	/*color: #ffffff;*/
+	font-size: 18px;
+	padding: 20px;
+	position: relative;
+	top: 144px;
 }
 
 /* End of CSS for Portfolio*/
