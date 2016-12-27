@@ -68,7 +68,7 @@ body {
    Creating the figures for main content (Hangman, RPG Game, Triva Game, Widget, and RPS*/
 
 .img-hangman {
-	background-image: url("../images/technics-q-c-210-204-1.jpg");
+	background-image: url("../images/hangman.png");
     width: 210px;
     height: 204px;
     margin-left: 20px;

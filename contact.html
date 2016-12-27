@@ -9,12 +9,16 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.form.js"></script>
+        <script type="text/javascript" src="assets/js/contact.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </head>
 	<body>
-    <script src="assets/js/bootstrap.min.js"></script>
+    
 	<header>
         <nav class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -53,10 +57,10 @@
                     <div id="contactwell" class="well well-md">
         		    <h2>Contact</h2>
                     <hr id="hr-maincontent">
-                        <form method="post" action="">
+                        <form id="contactform" method="post" action="assets/php/form.php">
                             <fieldset class="form-group">
-                                <label for="fullname">Name</label>
-                                <input type="text" class="form-control" name="fullname" id="fullname" placeholder="John Smith">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" name="name" id="name" placeholder="John Smith">
                             </fieldset>
                             <fieldset class="form-group">
                             <label for="email">Email</label>
@@ -66,8 +70,9 @@
                             <label for="message">Message</label>
                             <textarea class="form-control" name="message" id='message'></textarea>
                             </fieldset>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>	
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+                        <div id="response"></div>
                     </div>
         	    </section>
                   </div>
