@@ -2,6 +2,22 @@ body {
 	background-image: url("../images/ZenBG.png");
 	background-size: cover;
 }
+
+figure {
+	text-align: center;
+	font-size: 18px;
+	background: #FAFAF4;
+	color: #398FBA;
+	opacity: 0.7;
+    animation-name: example;
+    animation-duration: 5s;
+}
+.portfolio {
+
+	height: 204px;
+
+}
+
 .navbar {
 	background-image: transparent !important;
 	background-color: #FAFAF4 !important;
@@ -76,9 +92,8 @@ body {
 }
 
 #fig-hangman {
-	/*background: #1995dc;*/
+	
 	text-align: center;
-	/*color: #ffffff;*/
 	font-size: 20px;
 	font-weight: bold;
 	padding: 20px;
@@ -97,9 +112,8 @@ body {
 }
 
 #fig-rpggame {
-	/*background: #1995dc;*/
+	
 	text-align: center;
-	/*color: #ffffff;*/
 	font-size: 20px;
 	padding: 20px;
 	position: relative;
@@ -116,9 +130,8 @@ body {
 }
 
 #fig-triviagame {
-	/*background: #1995dc;*/
+	
 	text-align: center;
-	/*color: #ffffff;*/
 	font-size: 20px;
 	padding: 20px;
 	position: relative;
@@ -136,9 +149,8 @@ body {
 }
 
 #fig-ffind {
-	/*background: #1995dc;*/
+	
 	text-align: center;
-	/*color: #ffffff;*/
 	font-size: 18px;
 	padding: 20px;
 	position: relative;
@@ -155,9 +167,8 @@ body {
 }
 
 #fig-eat {
-	/*background: #1995dc;*/
+	
 	text-align: center;
-	/*color: #ffffff;*/
 	font-size: 18px;
 	padding: 20px;
 	position: relative;
@@ -175,9 +186,8 @@ body {
 }
 
 #fig-gift {
-	/*background: #1995dc;*/
+	
 	text-align: center;
-	/*color: #ffffff;*/
 	font-size: 18px;
 	padding: 20px;
 	position: relative;
@@ -187,19 +197,12 @@ body {
 /* End of CSS for Portfolio*/
 
 /* The animation code */
-@keyframes example {
+/*@keyframes example {
     from {
     	background: #398FBA;
 		color: #ffffff;
     }
     to {background: grey;}
-}
+}*/
 
 /* The element to apply the animation to */
-figure {
-	background: #FAFAF4;
-	color: #398FBA;
-	opacity: 0.7;
-    animation-name: example;
-    animation-duration: 5s;
-}
